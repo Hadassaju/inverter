@@ -1,0 +1,68 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1692670061
+<< checkpaint >>
+rect -1313 3858 1787 3911
+rect -1313 2550 2156 3858
+rect -1313 1288 2314 2550
+rect -1565 -2337 2314 1288
+rect -1565 -2656 2154 -2337
+rect -1565 -3599 1535 -2656
+<< metal1 >>
+rect 498 1350 562 1414
+rect -238 1111 -38 1146
+rect -238 982 502 1111
+rect -238 946 -38 982
+rect 551 756 1170 867
+rect -252 363 -52 426
+rect 491 363 568 668
+rect 1059 462 1170 756
+rect -252 289 568 363
+rect -252 226 -52 289
+rect 0 0 200 200
+rect 491 -62 568 289
+rect 1014 262 1214 462
+rect -250 -108 -50 -66
+rect -250 -223 497 -108
+rect 1056 -113 1173 262
+rect -250 -266 -50 -223
+rect 0 -400 200 -223
+rect 550 -230 1173 -113
+rect 496 -384 554 -324
+rect 0 -800 200 -600
+rect 0 -1200 200 -1000
+use sky130_fd_pr__nfet_01v8_YV35WK  sky130_fd_pr__nfet_01v8_YV35WK_0
+timestamp 1692670061
+transform 1 0 -94 0 1 -1139
+box -211 -1200 369 1167
+use sky130_fd_pr__nfet_01v8_YV35WK  XN0
+timestamp 1692670061
+transform 1 0 525 0 1 -196
+box -211 -1200 369 1167
+use sky130_fd_pr__pfet_01v8_BSAEC6  XP0
+timestamp 1692670060
+transform 1 0 527 0 1 1013
+box -211 -1200 369 1585
+use sky130_fd_pr__nfet_01v8_YV35WK  XXN0
+timestamp 1692670061
+transform 1 0 685 0 1 123
+box -211 -1200 369 1167
+use sky130_fd_pr__pfet_01v8_BSAEC6  XXP0
+timestamp 1692670060
+transform 1 0 158 0 1 1066
+box -211 -1200 369 1585
+<< labels >>
+flabel metal1 -252 226 -52 426 0 FreeSans 256 0 0 0 in
+port 0 nsew
+flabel metal1 1014 262 1214 462 0 FreeSans 256 0 0 0 out
+port 1 nsew
+flabel metal1 -250 -266 -50 -66 0 FreeSans 256 0 0 0 gnd
+port 3 nsew
+flabel metal1 -238 946 -38 1146 0 FreeSans 256 0 0 0 vd
+port 2 nsew
+flabel metal1 0 0 200 200 0 FreeSans 256 0 0 0 in
+flabel metal1 0 -400 200 -200 0 FreeSans 256 0 0 0 out
+flabel metal1 0 -800 200 -600 0 FreeSans 256 0 0 0 vd
+flabel metal1 0 -1200 200 -1000 0 FreeSans 256 0 0 0 gnd
+<< end >>
